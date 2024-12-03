@@ -153,14 +153,15 @@ st.pyplot(create_barchart(filtered_data, 'hr', "", "Hour"))
 #Menambahkan kesimpulan
 with st.expander("SEE CONCLUSION"):
     st.write(
-        """**1. Bagaimana jumlah penyewaan sepeda sepanjang waktu?**
-
-Tren penyewaan sepeda menurun pada akhir tahun dimana saat itu sedang musim dingin, kemudian tren kembali naik setelah musim dingin berakhir. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah merencanakan operasional dimana stok sepeda ditambah setelah musim dingin dan dapat melakukan perawatan sepeda serta melakukan promosi pada musim dingin saat penyewaan mulai menurun.
-
-**2. Kondisi cuaca seperti apa yang paling mempengaruhi jumlah peminjaman?**
-
-Banyak sedikitnya penyewaan bergantung kepada kondisi cuaca. Cuaca yang buruk seperti hujan bahkan salju sangat berdampak kepada penyewaan sepeda. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah meninjau ulang layanan agar lebih fleksibel agar orang dapat dengan mudah mengakses tempat selama cuaca buruk, serta dilakukan promosi keunggulan sepeda dengan melengkapi fasilitas seperti diberikan pakaian pelindung agar penyewa tidak kebasahan menggunakan sepeda saat cuaca buruk.
         """
+        1. **Bagaimana jumlah penyewaan sepeda sepanjang waktu?**
+
+Jumlah rata-rata penyewaan sepeda pada data *day_df* adalah **4504**, serta pada data *hour_df* adalah **189**. Terlihat dari grafik linechart jumlah penyewaan sepeda menurun pada akhir tahun dimana saat itu sedang musim winter, kemudian tren kembali naik dimusim selanjutnya. Berdasarkan grafik barchart jumlah terbanyak penyewaan sepeda sepanjang waktu terdapat pada musim summer dengan keadaan cuaca clear serta dihari kerja pagi di waktu hari dan sore hari. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah merencanakan operasional dimana stok sepeda ditambah setelah musim dingin dan dapat melakukan perawatan sepeda serta melakukan promosi pada musim dingin saat penyewaan mulai menurun.
+
+2. **Kondisi cuaca seperti apa yang paling mempengaruhi jumlah peminjaman?**
+
+Terlihat dari barchart banyak sedikitnya penyewaan ternyata sangat bergantung kepada kondisi cuaca. Berdasarkan explor data yang telah dilakukan diperoleh cuaca yang paling banyak mendapatkan penyewaan adalah **clear** dengan banyak penyewaan untuk data *day_df* sebanyak 451 dengan suhu max ternormalisasi mencapai 0.86, serta untuk data *hour_df* sebanyak sebanyak 848 dengan suhu max ternormalisasi mencapai 1.00. Sedangkan cuaca yang memiliki penyewaan ***paling sedikit*** adalah **Light Rain**	sebanyak 21 untuk data *day_df*, serta **Heavy Rain**	sebanyak 3 untuk data *hour_df*. Sehingga dapat disimpulkan cuaca yang buruk seperti light rain bahkan heavy rain sangat berdampak kepada penyewaan sepeda. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah meninjau ulang layanan agar lebih fleksibel agar orang dapat dengan mudah mengakses tempat selama cuaca buruk, serta dilakukan promosi keunggulan sepeda dengan melengkapi fasilitas seperti diberikan pakaian pelindung agar penyewa tidak kebasahan menggunakan sepeda saat cuaca buruk.
+"""
     )
 
 #Menambahkan caption copyright
