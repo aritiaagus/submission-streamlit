@@ -160,11 +160,6 @@ Tren penyewaan sepeda menurun pada akhir tahun dimana saat itu sedang musim ding
 **2. Kondisi cuaca seperti apa yang paling mempengaruhi jumlah peminjaman?**
 
 Banyak sedikitnya penyewaan bergantung kepada kondisi cuaca. Cuaca yang buruk seperti hujan bahkan salju sangat berdampak kepada penyewaan sepeda. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah meninjau ulang layanan agar lebih fleksibel agar orang dapat dengan mudah mengakses tempat selama cuaca buruk, serta dilakukan promosi keunggulan sepeda dengan melengkapi fasilitas seperti diberikan pakaian pelindung agar penyewa tidak kebasahan menggunakan sepeda saat cuaca buruk.
-
-**3. Diwaktu apa saja orang-orang menyewa sepeda?**
-
-Jam sibuk terjadi pada pagi hari dan sore hari yang mana waktu tersebut bertepatan dengan waktu kerja. Begitu juga perbandingan penyewaan menurun pada saat akhir pekan. **Rekomendasi** yang dapat diberikan kepada pengembang bisnis adalah meningkatkan persediaan sepeda pada saat jam sibuk kerja dan membuat lokasinya strategis diantara area perkantoran, serta melakukan pendekatan yang berbeda untuk pengguna yang menyewa di hari kerja dengan akhir pekan.
-
         """
     )
 
