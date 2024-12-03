@@ -17,7 +17,7 @@ st.header('JH BIKE SHARING DASHBOARD')
 with st.sidebar:
     # Menambahkan logo perusahaan
     st.header("JH BIKE COPORATION")
-    st.image("BIKE.png")
+    st.image("Dashboard/BIKE.png")
 
      # Mengambil start_date & end_date dari date_input
     min_date = data['dteday'].min()
