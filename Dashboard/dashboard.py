@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set(style='dark')
 
 # Load the dataS
-data = pd.read_csv("all_data.csv")
+data = pd.read_csv("Dashboard/all_data.csv")
 
 # membuat filter dengan widget date serta menambahkan logo perusahaan
 data['dteday'] = pd.to_datetime(data['dteday'])
